@@ -13,6 +13,7 @@ git clone 该项目
 #### 使用说明
 所有的请求都3步，构造请求，执行，获取请求结果。
 
+`
 # coding=utf-8
 import winxuan
 
@@ -25,4 +26,5 @@ req = winxuan.items.area.sales.top.Request('YEAR')
 rst = wxc.exec(req)
 #获取返回可视化结果
 rsp = winxuan.baseInterface.BaseRsp().getRsp(rst)
+`
 
